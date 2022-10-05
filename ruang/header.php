@@ -13,14 +13,14 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Akademik</a>
+ <a class="navbar-brand" href="index.php">Akademik</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Mahasiswa</a></li>
-      <li class="active"><a href="#">Dosen</a></li>
-      <li class="active"><a href="#">Mata Kuliah</a></li>
-      <li class="active"><a href="#">Ruang</a></li>
-      <li class="active"><a href="#">Waktu</a></li>
+      <li class="active"><a href="mahasiswa/mahasiswa.php">Mahasiswa</a></li>
+      <li class="active"><a href="dosen/dosen.php">Dosen</a></li>
+      <li class="active"><a href="matkul/matkul.php">Mata Kuliah</a></li>
+      <li class="active"><a href="ruang/ruang.php">Ruang</a></li>
+      <li class="active"><a href="waktu/waktu.php">Waktu</a></li>
         </ul>
     </ul>
     <ul class="nav navbar-nav navbar-right">

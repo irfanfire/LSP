@@ -8,19 +8,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-
 <body>
+
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Akademik</a>
+ <a class="navbar-brand" href="/SIA/SIA/index.php">Akademik</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Mahasiswa</a></li>
-      <li class="active"><a href="#">Dosen</a></li>
-      <li class="active"><a href="#">Mata Kuliah</a></li>
-      <li class="active"><a href="#">Ruang</a></li>
-      <li class="active"><a href="#">Waktu</a></li>
+      <li class="active"><a href="/SIA/SIA/mahasiswa/mahasiswa.php">Mahasiswa</a></li>
+      <li class="active"><a href="/SIA/SIA/dosen/dosen.php">Dosen</a></li>
+      <li class="active"><a href="/SIA/SIA/matkul/matkul.php">Mata Kuliah</a></li>
+      <li class="active"><a href="/SIA/SIA/ruang/ruang.php">Ruang</a></li>
+      <li class="active"><a href="/SIA/SIA/waktu/waktu.php">Waktu</a></li>
         </ul>
     </ul>
     <ul class="nav navbar-nav navbar-right">

@@ -1,11 +1,11 @@
 <?php
 include '../func.php';
-include '../header.php';
+include 'header.php';
 $sql = "SELECT * FROM dosen";
 $result = $conn->query($sql);
 
 ?>
-    <div class="col-md-12 p-5 pt-2">
+    <div class="col-md-10 p-5 pt-2">
       <h3><i class="fas fa-calendar-alt mr-2"></i> Dosen </h3>
       <hr>
       <a href="tambahdosen.php" class="btn btn-primary rounded mt-2"><i class="fas fa-plus-circle mr-2"></i> [+] Tambah </a>
@@ -20,7 +20,6 @@ $result = $conn->query($sql);
             <th scope="col">Prodi</th>
             <th scope="col">Email</th>
             <th scope="col">Telp</th>
-            <th scope="col">Opsi</th>
           </tr>
         </thead>
 

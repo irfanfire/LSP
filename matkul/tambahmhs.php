@@ -35,7 +35,7 @@ if (isset($_POST['tambah'])) {
                 <div class="card-body">
                     <form method="POST" action="">
                         <div class="mb-3"><label for="nama">Nama</label><input class="form-control" name="nama" type="text"  placeholder=""></div>
-                        <div class="mb-3"><label for="jenkel">Jenis Kelamin</label><select name='jenkel'class="form-control"  placeholder="" value="<?php echo $jenkel;?>"></div>
+                        <div class="mb-3"><label for="jenkel">Jenis Kelamin</label><select class="form-control"  placeholder="" value="<?php echo $jenkel;?>"></div>
                                 <option value="Laki-Laki" >Laki-Laki</option>
                                 <option value="Perempuan" >Perempuan</option>
                             </select>

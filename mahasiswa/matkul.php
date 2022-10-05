@@ -1,6 +1,6 @@
 <?php
 include '../func.php';
-include '../header.php';
+include 'header.php';
 $sql = "SELECT * FROM matkul";
 $result = $conn->query($sql);
 
